@@ -1,4 +1,3 @@
-requests>=2.31.0
-fastapi>=0.103.0
-flask>=2.3.2
-openai>=0.27.0
+Flask
+tavily-python
+requests
