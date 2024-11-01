@@ -17,6 +17,7 @@ def search():
     include_images = True
     include_answer = True
     include_raw_content = True
+    max_results = 25
 
     # Check if query is provided
     if not query:
@@ -29,7 +30,8 @@ def search():
             search_depth=search_depth,
             include_images=include_images,
             include_answer=include_answer,
-            include_raw_content=include_raw_content
+            include_raw_content=include_raw_content,
+            max_results=max_results
         )
         return jsonify(response)
     except Exception as e:
