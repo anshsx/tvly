@@ -17,7 +17,7 @@ def search():
     include_images = True
     include_answer = True
     include_raw_content = True
-    max_results = 25
+    max_results = 10
 
     # Check if query is provided
     if not query:
